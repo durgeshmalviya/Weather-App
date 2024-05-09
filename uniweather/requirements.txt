@@ -1,0 +1,8 @@
+animate.css@^4.1.1
+axios@^1.6.8
+flowbite@^2.3.0
+
+cd my-react-app
+npm install
+npm install -r requirements.txt
+npm start

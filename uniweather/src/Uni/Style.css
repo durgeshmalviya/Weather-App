@@ -1,0 +1,75 @@
+.ok {
+  text-align: center;
+  animation: upText 1s ease;
+  animation-timing-function: ease;
+}
+/* https://i.postimg.cc/pXb3B2mW/ezgif-5-3218fc6339.gif*/
+.p {
+  font-weight: bold;
+  position: relative;
+  color: black;
+  background: url(./ezgif-5-3218fc6339.gif);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.5s;
+  animation: fadeOut 1s ease;
+  animation-timing-function: ease;
+
+}
+
+.inp {
+
+  color: #41afe6;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+
+}
+
+
+.btnse{
+color: #c5e8f9;
+outline: none;
+margin-left:-45px;
+background: #006699;
+padding: 10px;
+border-radius: 20px 90px 90px 80px;
+
+}
+
+.tst{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  animation: upText 1s ease;
+  animation-timing-function: ease;
+  
+}
+
+.ddd::-webkit-scrollbar{
+ color:rebeccapurple;
+}
+
+@keyframes upText {
+  0% {
+    transform: translateY(2rem);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  10% {
+    opacity: 0;
+  }
+}
